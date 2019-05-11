@@ -2,6 +2,8 @@
 #include <string>
 #include <fstream>
 #include <vector>
+//http://www.cplusplus.com/reference/utility/pair/operators/
+/// #include <utility> provides comparison for pair<int, int> which can be used in priority_queue or sort functions.
 
 using namespace std;
 
