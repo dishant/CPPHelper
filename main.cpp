@@ -2,10 +2,16 @@
 #include <string>
 #include <fstream>
 #include <vector>
+using namespace std;
+
 //http://www.cplusplus.com/reference/utility/pair/operators/
 /// #include <utility> provides comparison for pair<int, int> which can be used in priority_queue or sort functions.
 
-using namespace std;
+
+// min priority queue of pair.
+typedef pair<int, int> pi; 
+priority_queue<pi, vector<pi>, greater<pi> > pq; 
+
 
 
 vector<string> split(string str, string token){
